@@ -24,4 +24,4 @@ Route::get('/themes', [ThemeController::class,'index'])
 ->name('themes.index');
 Route::post('/themes', [ThemeController::class,'store']);
 Route::post('/themes/delete/{id}', [ThemeController::class,'destroy']);
-Route::get('/memos', [MemoController::class, 'create'])->name('memos.create');
+
