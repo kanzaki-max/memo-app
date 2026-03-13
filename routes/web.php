@@ -16,7 +16,7 @@ use App\Http\Controllers\ThemeController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/memos/create');
 });
 
 Route::resource('memos', MemoController::class);
